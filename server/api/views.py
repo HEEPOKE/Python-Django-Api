@@ -1,7 +1,7 @@
 from rest_framework import generics
 
 from .models import Location, Item
-from .serializer import LocationSerializer, ItemSerializer
+from .serializers import LocationSerializer, ItemSerializer
 
 
 class ItemList(generics.ListCreateAPIView):
