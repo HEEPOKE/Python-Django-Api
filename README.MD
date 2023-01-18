@@ -1,5 +1,5 @@
 # Start
 
----virtualenv venv
+--virtualenv venv
 -django-admin startproject
 -django-admin startapp
